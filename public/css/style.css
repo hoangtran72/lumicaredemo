@@ -21,7 +21,7 @@ body {
     display: inline-block;
 }
 
-.about .title {
+#about .title {
     font-size: 8rem;
     font-weight: bold;
     color: #FFF;

@@ -1,7 +1,7 @@
 // display navbar when hover over hamburger menu
-$('#dropdownMenuButton').hover(function() {
+$('.nav').hover(function() {
   $(".dropdown-menu").addClass('show');
-  $('#dropdownMenuButton').removeClass('fa-solid fa-bars').addClass('fa-solid fa-xmark');
+  $('#dropdownMenuButton').removeClass('fa-bars').addClass('fa-xmark');
   $('.nav').addClass('bg-black');
   $('.dropdown-menu').addClass('bg-black');
 });
@@ -10,5 +10,9 @@ $('#dropdownMenuButton').hover(function() {
 $('.nav').mouseleave(function() {
   $(".dropdown-menu").removeClass('show');
   $('.nav').removeClass('bg-black');
-  $('#dropdownMenuButton').removeClass('fa-solid fa-xmark').addClass('fa-solid fa-bars');
+  $('#dropdownMenuButton').removeClass('fa-xmark').addClass('fa-bars');
 });
+
+if ($(window).width() > 992) {
+  docSlider.init();
+}
