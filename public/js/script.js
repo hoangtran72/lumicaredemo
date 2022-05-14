@@ -1,3 +1,10 @@
+$(document).ready(function() {
+  if ($(window).width() <= 576) {
+    $("#about-video-div").removeClass('embed-responsive-21by9').addClass('embed-responsive-1by1');
+  }
+});
+
+
 // display navbar when hover over hamburger menu
 $('.nav').hover(function() {
   $(".dropdown-menu").addClass('show');
