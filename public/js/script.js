@@ -14,5 +14,8 @@ $('.nav').mouseleave(function() {
 });
 
 if ($(window).width() > 992) {
-  docSlider.init();
+  docSlider.init({
+    speed: 1000,
+    pager: false
+  });
 }
