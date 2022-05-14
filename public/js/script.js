@@ -13,6 +13,7 @@ $('.nav').mouseleave(function() {
   $('#dropdownMenuButton').removeClass('fa-xmark').addClass('fa-bars');
 });
 
+// only enable section scroll on PC mode
 if ($(window).width() > 992) {
   docSlider.init({
     speed: 1000,

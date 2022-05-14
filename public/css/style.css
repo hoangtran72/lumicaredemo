@@ -30,8 +30,3 @@ body {
 #products {
     background: linear-gradient(to left, #FFF 50%, #000 50%);
 }
-
-.overlay-btn {
-    position: absolute;
-    bottom: 10%;
-}
