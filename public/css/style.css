@@ -17,21 +17,6 @@ body {
     }
 }
 
-
-/*home page*/
-.dropdown-menu {
-    margin-right: -1000px;
-    border: 0px;
-    border-radius: 0px;
-    margin: 0px;
-    padding: 1 rem;
-    border-top: 1px solid white;
-}
-
-.dropdown-menu>li {
-    display: inline-block;
-}
-
 #about .title {
     font-size: 3rem;
     font-weight: bold;
@@ -45,8 +30,6 @@ body {
 @media (min-width: 768px) {
     #about .title {
         font-size: 8rem;
-        font-weight: bold;
-        color: #FFF;
     }
 
     #products {

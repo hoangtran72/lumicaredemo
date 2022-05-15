@@ -12,23 +12,31 @@
 </head>
 
 <body>
-    <header class="nav pt-3 fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col text-center dropdown">
-                    <i class="fa-solid fa-bars fa-2xl float-left text-light pt-4" id="dropdownMenuButton" data-toggle="dropdown"></i>
-                    <ul class="dropdown-menu py-4 w-100 text-center">
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Product</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">About</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Sustainability</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Clinical</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Contact</a></li>
-                    </ul>
-                    <h1 class="text-white">Lumicare</h1>
-                </div>
-            </div>
+    <nav class="navbar bg-black fixed-top">
+        <a data-toggle="collapse" data-target="#navbarArea" aria-controls="navbarArea" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="hamburger-icon" class="fa-solid fa-bars fa-2xl text-white"></i>
+        </a>
+        <p class="mx-auto pt-1 text-white h1 m-0">Lumicare</p>
+        <div class="collapse navbar-collapse border-top" id="navbarArea">
+            <ul class="nav justify-content-center py-3 text-center d-md-flex d-block">
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Sustainability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Clinical</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
     <div class="docSlider">
         <section id="about-video" class="bg-black">
             <div id="about-video-div" class="embed-responsive embed-responsive-21by9">
@@ -75,7 +83,7 @@
         </section>
         <section id="learn-more">
             <div class="container">
-                <div class="row">
+                <div class="row pt-5">
                     <div class="col-lg-3"></div>
                     <div class="col-lg-6">
                         <h2 class="text-center py-5 font-weight-bold">Safer for patients and doctor</h2>
@@ -90,7 +98,7 @@
                     </div>
                     <div class="col-3"></div>
                     <div class="col text-center">
-                        <button type="button" class="btn bg-black text-white border-white rounded-pill mb-5">
+                        <button type="button" class="btn bg-black text-white border-white rounded-pill mb-3">
                             <h2 class="px-5">Learn more</h2>
                         </button>
                     </div>
@@ -124,7 +132,7 @@
             </div>
         </section>
         <section id="product-detail">
-            <div class="container">
+            <div class="container pt-5">
                 <div class="row py-5">
                     <div class="col-8">
                         <h1>Product #1</h1>
@@ -137,7 +145,7 @@
                         <img src="images/product/Front.png" class="img-fluid">
                     </div>
                 </div>
-                <div class="row py-5">
+                <div class="row py-md-5">
                     <div class="col-8">
                         <h1>Product #2</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptate voluptas error blanditiis magnam similique, repellat ut repudiandae, culpa incidunt. Sed ipsam itaque delectus iure illum. Distinctio reiciendis dicta expedita doloremque tempore iure repudiandae, assumenda aut! Tenetur, laboriosam. Earum, assumenda inventore a doloremque, numquam commodi nostrum dolorem illum porro ea, quidem.</p>
