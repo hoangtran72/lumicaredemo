@@ -8,25 +8,25 @@ if ($(window).width() < MOBILE_SCREENSIZE) {
 
 if ($(window).width() >= PC_SCREENSIZE) {
   $(".navbar").hover(function() {
-    $('#navbarArea').addClass("show");
-    $('#hamburger-icon').removeClass("fa-bars").addClass("fa-xmark");
+    $('#navbar-area').addClass("show");
+    $('#hamburger-icon').removeClass("fa-bars").addClass("fa-close");
   });
 
 
   $(".navbar").mouseleave(function() {
-    $('#navbarArea').removeClass("show");
-    $('#hamburger-icon').removeClass("fa-xmark").addClass("fa-bars");
+    $('#navbar-area').removeClass("show");
+    $('#hamburger-icon').removeClass("fa-close").addClass("fa-bars");
   });
 } else {
   $('#hamburger-icon').click(function() {
-    $('#hamburger-icon').toggleClass("fa-bars fa-xmark")
+    $('#hamburger-icon').toggleClass("fa-bars fa-close")
   });
 }
 
 // only enable section scroll on PC mode
 if ($(window).width() >= PC_SCREENSIZE) {
   docSlider.init({
-    speed: 1000,
+    speed: 1500,
     pager: false
   });
 }

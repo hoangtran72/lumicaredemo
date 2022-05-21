@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/docSlider.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <!-- font-awesome -->
-    <script src="https://kit.fontawesome.com/c0de85545f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="icons/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Lumicare</title>
 </head>
 
 <body>
-    <nav class="navbar bg-black fixed-top">
-        <a data-toggle="collapse" data-target="#navbarArea" aria-controls="navbarArea" aria-expanded="false" aria-label="Toggle navigation">
-            <i id="hamburger-icon" class="fa-solid fa-bars fa-2xl text-white"></i>
+    <nav class="navbar fixed-top">
+        <a data-toggle="collapse" data-target="#navbar-area" aria-controls="navbar-area" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="hamburger-icon" style="font-size: 28px" class="fa fa-bars text-white"></i>
         </a>
-        <p class="mx-auto pt-1 text-white h1 m-0">Lumicare</p>
-        <div class="collapse navbar-collapse border-top" id="navbarArea">
-            <ul class="nav justify-content-center py-3 text-center d-md-flex d-block">
+        <p class="mx-auto pt-1 text-white h1 m-0"><img class="logo" width="150" src="./images/logo/Lumicare_White.png"/></p>
+        <div class="collapse navbar-collapse border-top" id="navbar-area">
+            <ul class="nav py-3 text-center d-md-flex d-block">
                 <li class="nav-item">
                     <a class="h5 nav-link text-white" href="#">Product</a>
                 </li>
@@ -38,26 +39,30 @@
         </div>
     </nav>
     <div class="docSlider">
-        <section id="about-video" class="bg-black">
+        <section id="about-video" class="bg-black flex-center">
             <div id="about-video-div" class="embed-responsive embed-responsive-21by9">
-                <video class="embed-responsive-item" muted autoplay controls loop playsinline src="video/about_lumicare.mp4" poster="images/poster/poster.webp"></video>
+                <video class="embed-responsive-item" muted autoplay loop playsinline src="video/about_lumicare.mp4" poster="images/poster/poster.webp"></video>
             </div>
         </section>
-        <section id="about" class="bg-black">
+        <section id="about" class="bg-black flex-center">
             <div class="container-fluid pt-5">
                 <div class="row px-5">
                     <div class="col-lg-8">
-                        <p class="title text-white">Technology <br>that is<br>light years<br>ahead.</p>
+                        <p class="title"><span class="gradient-text">Technology that's</span>
+                            <br>
+                            <span class="light-year">Light years</span>
+                            <br>
+                            <span class="gradient-light">ahead</span></p>
                     </div>
                     <div class="col-lg-4 d-flex align-items-end">
-                        <button type="button" class="btn bg-black text-white border-white mb-5 glow-on-hover">
-                            <h2 class="p-1">About Lumicare</h2>
+                        <button type="button" class="btn button-gra">
+                            About Lumicare
                         </button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="products" class="pt-5">
+        <section id="products" class="pt-5 flex-center">
             <div class="container pt-5">
                 <div class="row">
                     <div class="col-md-3 my-auto text-white text-sm-black">
@@ -74,14 +79,14 @@
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <button type="button" class="btn bg-black text-white border-white glow-on-hover my-5">
-                            <h2 class="px-5">Products</h2>
+                        <button type="button" class="btn button-gra">
+                            Products
                         </button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="learn-more">
+        <section id="learn-more flex-center">
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-lg-3"></div>
@@ -98,20 +103,20 @@
                     </div>
                     <div class="col-3"></div>
                     <div class="col text-center">
-                        <button type="button" class="btn bg-black text-white border-white glow-on-hover mb-3">
-                            <h2 class="px-5">Learn more</h2>
+                        <button type="button" class="btn button-gra-inv">
+                            Learn more
                         </button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="sustainability" class="bg-black">
+        <section id="sustainability" class="bg-black flex-center">
             <div class="container">
                 <div class="row py-md-5">
                     <div class="col text-center text-white">
                         <h1 class="py-5 font-weight-bold">Technology that lights a new tommorow</h1>
-                        <button type="button" class="btn bg-black text-white border-white glow-on-hover mb-5 m-md-5">
-                            <h2 class="px-3 px-md-5">Sustainability</h2>
+                        <button type="button" class="btn button-gra">
+                            Sustainability
                         </button>
                     </div>
                 </div>
@@ -138,8 +143,8 @@
                         <div class="col-8">
                             <h1>Product #1</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptate voluptas error blanditiis magnam similique, repellat ut repudiandae, culpa incidunt. Sed ipsam itaque delectus iure illum. Distinctio reiciendis dicta expedita doloremque tempore iure repudiandae, assumenda aut! Tenetur, laboriosam. Earum, assumenda inventore a doloremque, numquam commodi nostrum dolorem illum porro ea, quidem.</p>
-                            <button type="button" class="btn bg-black text-white border-white glow-on-hover mb-5">
-                                <h2 class="px-3 px-md-5">Learn more</h2>
+                            <button type="button" class="btn button-gra-inv">
+                                Learn more
                             </button>
                         </div>
                         <div class="col-4">
@@ -151,14 +156,14 @@
             <footer class="bg-black">
                 <div class="container">
                     <div class="row border-bottom border-dark pt-3 pb-2">
-                        <div class="col-8">
+                        <div class="col-9">
                             <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Product</a></p>
                             <p class="d-md-inline"><a class="text-white text-decoration-none px-md-4" href="#">About</a></p>
                             <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Sustainability</a></p>
                             <p class="d-md-inline"><a class="text-white text-decoration-none px-md-4" href="#">Clinical</a></p>
                             <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Contact</a></p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <h3 class="text-white float-right">Lumicare</h3>
                         </div>
                     </div>
