@@ -13,12 +13,12 @@
     }
 
     #about .title {
-        font-size: 12vw;
+        font-size: 10vw;
         color: white;
     }
     
     .light-year {
-        font-size: 18vw;
+        font-size: 15vw;
         font-weight: 100;
         color: white;
     }
@@ -27,12 +27,16 @@
         width: 100%;
     }
 
-    .img-products,.img-learnmore {
+    .img-products {
         width: 300px;
     }
 
+    .img-learnmore {
+        width: 280px;
+    }
+
     .img-detail {
-        width: 300px;
+        width: 250px;
     }
 }
 
