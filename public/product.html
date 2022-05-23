@@ -4,31 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/c0de85545f.js" crossorigin="anonymous"></script>
     <title>Lumicare</title>
 </head>
 
 <body>
-    <header class="nav pt-3 fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col text-center dropdown">
-                    <i class="fa-solid fa-bars fa-2xl float-left text-light pt-4" id="dropdownMenuButton" data-toggle="dropdown"></i>
-                    <ul class="dropdown-menu py-4 w-100 text-center">
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Product</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">About</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Sustainability</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Clinical</a></li>
-                        <li><a class="dropdown-item text-white bg-transparent" href="#">Contact</a></li>
-                    </ul>
-                    <h1 class="text-white">Lumicare</h1>
+    <nav class="navbar bg-black fixed-top">
+        <a data-toggle="collapse" data-target="#navbarArea" aria-controls="navbarArea" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="hamburger-icon" class="fa-solid fa-bars fa-2xl text-white"></i>
+        </a>
+        <p class="mx-auto pt-1 text-white h1 m-0">Lumicare</p>
+        <div class="collapse navbar-collapse border-top" id="navbarArea">
+            <ul class="nav justify-content-center py-3 text-center d-md-flex d-block">
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Sustainability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Clinical</a>
+                </li>
+                <li class="nav-item">
+                    <a class="h5 nav-link text-white" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="product" class="product-background">
+        <div class="dark-layer py-10">
+            <div class="container-fluid px-lg-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/product/open.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 text-white mt-auto">
+                                <h1 class="text-glow">Performance</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Saepe, praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/product/product_top.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 text-white mt-auto">
+                                <h1 class="text-glow">Autotracing</h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Similique, officia.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    <h1>Product Page</h1>
+    </section>
+    <section id="simplicity" class="bg-black">
+        <div class="container-fluid">
+            <p class="heading text-white font-weight-bold px-lg-5">Simplicity</p>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="text-light">01</div>
+                    <h1 class="pl-3 font-weight-bold text-white">Lorem ipsum dolor sit amet </h1>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-light">02</div>
+                    <h1 class="pl-3 font-weight-bold text-white">Lorem ipsum dolor sit amet</h1>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-light">03</div>
+                    <h1 class="pl-3 font-weight-bold text-white">Lorem ipsum dolor sit amet</h1>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-light">04</div>
+                    <h1 class="pl-3 font-weight-bold text-white">Lorem ipsum dolor sit amet</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="about-video-div" class="embed-responsive embed-responsive-21by9">
+                    <video class="embed-responsive-item" muted autoplay controls loop playsinline src="video/about_lumicare.mp4" poster="images/poster/poster.webp"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" bg-black">
+        <div class="container">
+            <div class="row border-bottom border-dark pt-3 pb-2">
+                <div class="col-8">
+                    <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Product</a></p>
+                    <p class="d-md-inline"><a class="text-white text-decoration-none px-md-4" href="#">About</a></p>
+                    <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Sustainability</a></p>
+                    <p class="d-md-inline"><a class="text-white text-decoration-none px-md-4" href="#">Clinical</a></p>
+                    <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Contact</a></p>
+                </div>
+                <div class="col-4">
+                    <h3 class="text-white float-right">Lumicare</h3>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-md-8 text-secondary">
+                    <div>
+                        <span>1300 123 123</span>
+                        <span class="pl-4">info@lumicare.com.au</span>
+                    </div>
+                    <div class="pt-4">
+                        <span>Building name</span><br>
+                        <span>Address no. street name</span><br>
+                        <span>123 main road</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pt-4 text-white text-md-right">
+                        <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                        <i class="fa-brands fa-facebook-f fa-xl px-4"></i>
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                    </div>
+                    <div class=" text-md-right">
+                        <span class="text-secondary">A design by heart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

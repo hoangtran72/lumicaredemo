@@ -1,0 +1,33 @@
+/* common css */
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.product-background {
+    background-image: url("../images/background/glow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.dark-layer {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.py-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.text-glow {
+    color: #fff;
+    text-shadow: 1px 1px 5px #fff;
+}
+
+.heading {
+    font-size: 10vw;
+}
