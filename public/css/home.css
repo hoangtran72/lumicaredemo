@@ -23,10 +23,6 @@
         color: white;
     }
 
-    .container {
-        width: 100%;
-    }
-
     .img-products {
         width: 300px;
     }
@@ -40,14 +36,8 @@
     }
 }
 
-
-
 #products {
     background: linear-gradient(to bottom, #FFF 50%, #000 50%);
-}
-
-.footer-pages p {
-    font-size: 18px;
 }
 
 /* .footer-first-row {
@@ -68,15 +58,6 @@
         font-size: 10vw;
         font-weight: 100;
         color: white;
-    }
-
-    .container { 
-        min-width: 80% !important;
-    }
-
-    .footer-pages {
-        display: flex;
-        justify-content: space-between;
     }
 
     .img-products,.img-learnmore {

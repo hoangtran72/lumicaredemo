@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/product.css">
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/c0de85545f.js" crossorigin="anonymous"></script>
@@ -11,13 +12,13 @@
 </head>
 
 <body>
-    <nav class="navbar bg-black fixed-top">
-        <a data-toggle="collapse" data-target="#navbarArea" aria-controls="navbarArea" aria-expanded="false" aria-label="Toggle navigation">
-            <i id="hamburger-icon" class="fa-solid fa-bars fa-2xl text-white"></i>
+    <nav class="navbar fixed-top">
+        <a data-toggle="collapse" data-target="#navbar-area" aria-controls="navbar-area" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="hamburger-icon" style="font-size: 28px" class="fa fa-bars text-white"></i>
         </a>
-        <p class="mx-auto pt-1 text-white h1 m-0">Lumicare</p>
-        <div class="collapse navbar-collapse border-top" id="navbarArea">
-            <ul class="nav justify-content-center py-3 text-center d-md-flex d-block">
+        <p class="mx-auto pt-1 text-white h1 m-0"><img class="logo my-3" width="150" src="./images/logo/Lumicare_White.png" /></p>
+        <div class="collapse navbar-collapse border-top" id="navbar-area">
+            <ul class="nav py-3 text-center d-md-flex d-block">
                 <li class="nav-item">
                     <a class="h5 nav-link text-white" href="#">Product</a>
                 </li>
@@ -89,23 +90,23 @@
             </div>
             <div class="row">
                 <div id="about-video-div" class="embed-responsive embed-responsive-21by9">
-                    <video class="embed-responsive-item" muted autoplay controls loop playsinline src="video/about_lumicare.mp4" poster="images/poster/poster.webp"></video>
+                    <video class="embed-responsive-item" muted autoplay controls loop playsinline src="https://lumicare.s3.ap-southeast-1.amazonaws.com/about_lumicare.mp4" poster="images/poster/poster.webp"></video>
                 </div>
             </div>
         </div>
     </section>
-    <footer class=" bg-black">
+    <footer class="bg-black pt-5 pb-3">
         <div class="container">
-            <div class="row border-bottom border-dark pt-3 pb-2">
-                <div class="col-8">
+            <div class="footer-first-row row border-bottom">
+                <div class="footer-pages col-6">
                     <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Product</a></p>
                     <p class="d-md-inline"><a class="text-white text-decoration-none px-md-4" href="#">About</a></p>
                     <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Sustainability</a></p>
                     <p class="d-md-inline"><a class="text-white text-decoration-none px-md-4" href="#">Clinical</a></p>
                     <p class="d-md-inline"><a class="text-white text-decoration-none" href="#">Contact</a></p>
                 </div>
-                <div class="col-4">
-                    <h3 class="text-white float-right">Lumicare</h3>
+                <div class="col-6" style="text-align: right;">
+                    <img width="140" src="./images/logo/Lumicare_White.png" />
                 </div>
             </div>
             <div class="row py-3">
@@ -122,9 +123,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="pt-4 text-white text-md-right">
-                        <i class="fa-brands fa-linkedin-in fa-xl"></i>
-                        <i class="fa-brands fa-facebook-f fa-xl px-4"></i>
-                        <i class="fa-brands fa-instagram fa-xl"></i>
+                        <i style="font-size: 24px;" class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;
+                        <i style="font-size: 24px;" class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;
+                        <i style="font-size: 24px;" class="fa fa-instagram"></i>
                     </div>
                     <div class=" text-md-right">
                         <span class="text-secondary">A design by heart</span>

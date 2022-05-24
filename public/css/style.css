@@ -27,6 +27,11 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.text-glow {
+    color: #fff;
+    text-shadow: 1px 1px 5px #fff;
+}
+
 /* header start */
 
 .navbar,
@@ -161,3 +166,28 @@ nav ul {
 }
 
 /*button effect end*/
+
+@media (min-width: 768px) {
+    .container { 
+        min-width: 80% !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Footer start */
+
+.footer-pages p {
+    font-size: 18px;
+}
+
+.footer-pages {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer end */
