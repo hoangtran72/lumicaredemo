@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "lumicare-a84c5"
-  }
+    "default": "lumicare-website"
+  },
+  "targets": {}
 }
