@@ -1,24 +1,241 @@
-/* common css */
-.bg-black {
-    background-color: #000 !important;
+/* section1 starts */
+
+#section1 {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
 }
 
-.product-background {
-    background-image: url("https://lumicare.s3.ap-southeast-1.amazonaws.com/images/background/glow.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#section1 .title {
+    font-size: 10vh;
+    font-weight: bold;
 }
 
-.dark-layer {
-    background: rgba(0, 0, 0, 0.5);
+#section1 .img-product {
+    width: 40rem;
 }
 
-.py-10 {
+#section1 .comment span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#section1 .comment-left {
+    position: absolute;
+    top: 30rem;
+    left: -5rem;
+    z-index: 10;
+    width: 40%;
+}
+
+#section1 .comment-left div {
+    text-align: right;
+    border-top: 0.5px solid #f8f9fa;
+    margin-left: 33%;
+    padding-right: 35%;
+    padding-top: 1rem;
+}
+
+#section1 .comment-right1 {
+    position: absolute;
+    top: 45rem;
+    left: 60rem;
+    z-index: 10;
+    width: 40%;
+}
+
+#section1 .comment-right1 div {
+    text-align: left;
+    border-top: 0.5px solid #f8f9fa;
+    margin-right: 33%;
+    padding-left: 35%;
+    padding-top: 1rem;
+}
+
+#section1 .comment-right2 {
+    position: absolute;
+    top: 15rem;
+    left: 60rem;
+    z-index: 10;
+    width: 40%;
+}
+
+#section1 .comment-right2 div {
+    text-align: left;
+    border-top: 0.5px solid #f8f9fa;
+    margin-right: 33%;
+    padding-left: 35%;
+    padding-top: 1rem;
+}
+
+/* section1 ends */
+
+/* section2 starts */
+
+#section2 {
+    padding-top: 40rem;
+    padding-bottom: 5rem;
+}
+
+#section2 .comment-container {
+    border-top: 0.5px solid #f8f9fa;
+    padding-top: 2rem;
+}
+
+#section2 .comment span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* section2 ends */
+
+/* section3 starts */
+
+#section3 {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
+
+#section3 img {
+    width: 400px;
+}
+
+#section3 .product-details {
+    position: absolute;
+    left: 450px;
+    top: 30rem;
+}
+
+#section3 .product-details p.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#section3 .product-details p.description {
+    font-size: 1rem;
+}
+
+/* section3 ends */
+
+/* section4 starts */
+
+#section4 {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-.heading {
-    font-size: 10vw;
+#section4 .title {
+    font-size: 7vh;
+    font-weight: bold;
 }
+
+#section4 .container-fluid .col-11 {
+    border-top: 0.5px solid #f8f9fa;
+}
+
+#section4 .font-weight-bold.text-white {
+    font-size: 1.5rem;
+}
+
+/* section4 ends */
+
+/* section5 starts */
+
+#section5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#section5 .title {
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+#section5 .divider {
+    border-top: 0.5px solid #f8f9fa;
+}
+
+#section5 img {
+    width: 400px;
+}
+
+#section5 .text-light {
+    font-size: 0.9rem;
+}
+
+/* section5 ends */
+
+/* section6 starts */
+
+#section6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#section6 .title {
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+#section6 .white-circle {
+    height: 3rem;
+    width: 3rem;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#section6 img {
+    width: 25rem;
+}
+
+#section6 .comment {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 30rem;
+    margin-left: 22rem;
+    text-align: left;
+}
+
+/* section6 ends */
+
+/* section7 starts */
+
+#section7 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#section7 .title {
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+#section7 img {
+    width: 18rem;
+}
+
+#section7 .table {
+    border-top: 2px solid black;
+}
+
+#section7 .table div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* section7 ends */
+
+/* section8 starts */
+
+#section8 {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+#section8 .title {
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+
+/* section8 ends */
