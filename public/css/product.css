@@ -90,9 +90,11 @@
 
 /* section3 starts */
 
-#section3 {
-    padding-top: 15rem;
-    padding-bottom: 5rem;
+@media (min-width: 1199.98px) {
+    #section3 {
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
 }
 
 #section3 img {
@@ -117,24 +119,30 @@
 /* section3 ends */
 
 /* section4 starts */
-
-#section4 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+#section4 .title {
+    font-size: 5vh;
+    font-weight: bold;
 }
 
-#section4 .title {
-    font-size: 7vh;
-    font-weight: bold;
+@media (min-width: 1199.98px) {
+    #section4 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    #section4 .title {
+        font-size: 7vh;
+        font-weight: bold;
+    }
 }
 
 #section4 .container-fluid .col-11 {
     border-top: 0.5px solid #f8f9fa;
 }
 
-#section4 .font-weight-bold.text-white {
+/*#section4 .font-weight-bold.text-white {
     font-size: 1.5rem;
-}
+}*/
 
 /* section4 ends */
 
@@ -146,9 +154,22 @@
 }
 
 #section5 .title {
-    font-size: 7vh;
+    font-size: 5vh;
     font-weight: bold;
 }
+
+@media (min-width: 1199.98px) {
+    #section5 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    #section5 .title {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+}
+
 
 #section5 .divider {
     border-top: 0.5px solid #f8f9fa;
