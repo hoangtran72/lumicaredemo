@@ -182,24 +182,17 @@
     font-weight: bold;
 }
 
+@media (min-width: 1200px) {
+    #section6 .title {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+}
+
 @media (max-width: 575.98px) {
     .fa-xs-sm {
         font-size: 1em !important;
     }
-}
-
-#section6 .title {
-    font-size: 7vh;
-    font-weight: bold;
-}
-}
-
-#section6 .comment {
-    position: absolute;
-    font-size: 1.5rem;
-    top: 30rem;
-    margin-left: 22rem;
-    text-align: left;
 }
 
 /* section6 ends */
