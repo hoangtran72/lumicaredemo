@@ -90,7 +90,7 @@
 
 /* section3 starts */
 
-@media (min-width: 1199.98px) {
+@media (min-width: 1200px) {
     #section3 {
         padding-top: 10rem;
         padding-bottom: 5rem;
@@ -124,7 +124,7 @@
     font-weight: bold;
 }
 
-@media (min-width: 1199.98px) {
+@media (min-width: 1200px) {
     #section4 {
         padding-top: 10rem;
         padding-bottom: 10rem;
@@ -158,7 +158,7 @@
     font-weight: bold;
 }
 
-@media (min-width: 1199.98px) {
+@media (min-width: 1200px) {
     #section5 {
         padding-top: 10rem;
         padding-bottom: 10rem;
@@ -170,15 +170,6 @@
     }
 }
 
-
-#section5 .divider {
-    border-top: 0.5px solid #f8f9fa;
-}
-
-#section5 img {
-    width: 400px;
-}
-
 #section5 .text-light {
     font-size: 0.9rem;
 }
@@ -186,27 +177,21 @@
 /* section5 ends */
 
 /* section6 starts */
+#section6 .title {
+    font-size: 5vh;
+    font-weight: bold;
+}
 
-#section6 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+@media (max-width: 575.98px) {
+    .fa-xs-sm {
+        font-size: 1em !important;
+    }
 }
 
 #section6 .title {
     font-size: 7vh;
     font-weight: bold;
 }
-
-#section6 .white-circle {
-    height: 3rem;
-    width: 3rem;
-    background-color: #f8f9fa;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#section6 img {
-    width: 25rem;
 }
 
 #section6 .comment {
