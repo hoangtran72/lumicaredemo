@@ -6,12 +6,15 @@
 }
 
 #section1 .title {
-    font-size: 10vh;
+    font-size: 5vh;
     font-weight: bold;
 }
 
-#section1 .img-product {
-    width: 40rem;
+@media (min-width: 1200px) {
+    #section1 .title {
+        font-size: 10vh;
+        font-weight: bold;
+    }
 }
 
 #section1 .comment span {
@@ -19,52 +22,69 @@
     font-weight: bold;
 }
 
+@media (max-width: 575.98px) {
+    #section1 .comment span {
+        font-size: 1rem;
+    }
+}
+
 #section1 .comment-left {
     position: absolute;
-    top: 30rem;
-    left: -5rem;
+    top: 40%;
+    left: -15vw;
     z-index: 10;
-    width: 40%;
 }
 
 #section1 .comment-left div {
     text-align: right;
     border-top: 0.5px solid #f8f9fa;
-    margin-left: 33%;
-    padding-right: 35%;
+    margin-right: 35%;
     padding-top: 1rem;
 }
 
 #section1 .comment-right1 {
     position: absolute;
-    top: 45rem;
-    left: 60rem;
+    top: 10%;
+    right: -15vw;
     z-index: 10;
-    width: 40%;
 }
 
 #section1 .comment-right1 div {
     text-align: left;
     border-top: 0.5px solid #f8f9fa;
-    margin-right: 33%;
-    padding-left: 35%;
+    margin-left: 35%;
     padding-top: 1rem;
 }
 
 #section1 .comment-right2 {
     position: absolute;
-    top: 15rem;
-    left: 60rem;
+    top: 70%;
+    right: -15vw;
     z-index: 10;
-    width: 40%;
 }
 
 #section1 .comment-right2 div {
     text-align: left;
     border-top: 0.5px solid #f8f9fa;
-    margin-right: 33%;
-    padding-left: 35%;
+    margin-left: 35%;
     padding-top: 1rem;
+}
+
+@media (min-width: 1200px) {
+    #section1 .comment-left div {
+        margin-right: 0%;
+        padding-right: 35%;
+    }
+
+    #section1 .comment-right1 div {
+        margin-left: 0%;
+        padding-left: 35%;
+    }
+
+    #section1 .comment-right2 div {
+        margin-left: 0%;
+        padding-left: 35%;
+    }
 }
 
 /* section1 ends */
@@ -200,17 +220,25 @@
 /* section7 starts */
 
 #section7 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #section7 .title {
-    font-size: 7vh;
+    font-size: 5vh;
     font-weight: bold;
 }
 
-#section7 img {
-    width: 18rem;
+@media (min-width: 1200px) {
+    #section7 .title {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+
+    #section7 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
 }
 
 #section7 .table {
