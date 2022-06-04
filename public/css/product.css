@@ -255,13 +255,25 @@
 /* section8 starts */
 
 #section8 {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #section8 .title {
-    font-size: 7vh;
+    font-size: 5vh;
     font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    #section8 .title {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+
+    #section8 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
 }
 
 
